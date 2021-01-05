@@ -1,0 +1,142 @@
+
+.regi-page {
+    width: 600px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 600px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #409dd3;
+    width: 60%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #2a8fb7;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    height: 80px;
+    border-bottom: 2px solid #3898c2;
+    box-shadow: 10px 10px 30px #a7c1d6;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: white;
+    font-weight: bold;
+    transition: opacity 1s;
+}
+
+.menu {
+    float: right;
+    margin-top: 20px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    line-height: 80px;
+    color: #1ba0dd;
+    padding: 0 10px;
+}
+
+.menu a:hover {
+    color: #177cac;
+}
+
+
+
+
+footer {
+    height: 100px;
+    background-color: #5f9cb4;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.foo_div {
+    float: left;
+
+    margin-left: 18px;
+
+}
+
+.foo_div1 {
+    text-align: center;
+}
+
+.foo_div1 span {
+    font-size: 15px;
+    color: black;
+    font-weight: lighter;
+}
+
+.foo_div1 p {
+    margin: 5px;
+    color: white;
+    font-weight: normal;
+}
