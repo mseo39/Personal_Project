@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<br><br><br><br><br><br>
+<p>1.휴지 2.화장품 3.세면도구</p>
+<table border="1" width="500">
+    <tr>
+        <td>날짜</td>
+        <td>품목</td>
+    {% for row in rows %}
+    <tr>
+        <td>{{row[1]}}</td>
+        <td>{{row[0]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="static/css/base.css">
+</head>
+<body>
+<br><br><br><br><br><br>
+<div class="regibox" align="center">
+    <h2>회원가입</h2>
+    <div class="regi-page" style="padding-top: 20px;">
+        <form class="form" method="POST" action="/register">
+            <input type="text" id="id" name="id" placeholder="아이디" /><br>
+            <input type="password" id="passwd" name="passwd" placeholder="비밀번호" /><br>
+            <button type="submit" value="signup">submit</button>
+        </form>
+        <p class="message">계정이 이미 있으신가요? <a href="http://127.0.0.1:5000">로그인하기</a></p>
+    </div>
+</div>
+<br><br><br>
+</body>
+</html>

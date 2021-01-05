@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<br><br><br><br><br><br>
+<div class="regibox" align="center">
+    <h2>도움</h2>
+    <p>1.휴지 2.화장품 3.세면도구</p>
+    <div class="regi-page" style="padding-top: 20px;">
+        <form class="form" method="POST" action="/help">
+            <input type="text" id="name" name="name" placeholder="이름" /><br>
+            <input type="text" id="help" name="help" placeholder="도움" /><br>
+            <button type="submit" value="submit">submit</button>
+        </form>
+    </div>
+</div>
+<br>
+<div class="regibox" align="center">
+    <h2>도움목록</h2>
+    <div class="regi-page" style="padding-top: 20px;">
+        <form class="form" method="POST" action="/helpshow">
+            <input type="text" id="name" name="name" placeholder="이름" /><br>
+            <button type="submit" value="submit">submit</button>
+        </form>
+    </div>
+</div>
+<br><br><br>
+{% endblock %}

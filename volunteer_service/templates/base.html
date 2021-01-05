@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="static/css/base.css">
+      <title>복지기관</title>
+   </head>
+
+<body>
+   <header>
+      <div class="wrapper">
+         <nav>
+            <ul class="menu">
+               <li><a href="http://127.0.0.1:5000/regi" >등록</a></li>
+               <li><a href="http://127.0.0.1:5000/inquiry" >조회</a></li>
+               <li><a href="http://127.0.0.1:5000/graphshow" >그래프</a></li>
+               <li><a href="http://127.0.0.1:5000/assistance">도움</a></li>
+            </ul>
+         </nav>
+         </div>
+      </header>
+   {% block content %}
+   {% endblock %}
+  
+   <footer>
+      <div class="foo_div">
+      </div>
+      <div class="foo_div1">
+         <span>두루미 복지센터</span><span> | </span>
+         <span> 인천광역시 </span><span> | </span>
+         <p> 두루미와 함께할 봉사자를 모집하고 있습니다. </p>
+      </div>
+   </footer>
+</body>
+
+</html>

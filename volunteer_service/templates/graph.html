@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<br><br><br><br><br><br>
+<div class="regibox" align="center">
+    <h2>그래프</h2>
+    <div class="regi-page" style="padding-top: 20px;">
+        <form class="form" method="POST" action="/graph">
+            <input type="text" id="name" name="name" placeholder="이름" /><br>
+            <button type="submit" value="submit">submit</button>
+        </form>
+    </div>
+</div>
+<br><br><br>
+{% endblock %}
